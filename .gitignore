@@ -1,4 +1,4 @@
-# Ignore Python cache files
+# Ignore Py cache files
 __pycache__/
 
 
