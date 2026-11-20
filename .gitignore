@@ -1,2 +1,6 @@
-# Igonore notebook
+# Ignore Python cache files
+__pycache__/
+
+
+# Ignore notebook
 SVM.ipynb
