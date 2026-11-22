@@ -42,7 +42,7 @@ $$
 f(x) = w^T x + b
 $$
 $$
-\hat{y} = \operatorname{sign}(f(x))
+\hat{y} = sign(f(x))
 $$
 
 Batas pemisah (*decision boundary*) adalah himpunan titik dengan $w^T x + b = 0$. Pada implementasi, titik dengan $f(x) = 0$ dipetakan ke kelas $+1$.
