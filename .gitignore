@@ -1,6 +1,13 @@
 # Ignore Py cache files
 __pycache__/
 
+# Ignore models
+*.pkl
+*.joblib
 
-# Ignore notebook
+# Ignore some files
 SVM.ipynb
+svm_model1.py
+
+# Others
+README_raw.md
