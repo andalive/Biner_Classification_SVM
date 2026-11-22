@@ -39,7 +39,10 @@ Label kelas: $y_i \in \{-1, +1\}$ (`DOWN` = −1, `UP` = +1).
 **Fungsi keputusan dan hyperplane**
 
 $$
-f(x) = w^T x + b, \qquad \hat{y} = \operatorname{sign}\big(f(x)\big)
+f(x) = w^T x + b
+$$
+$$
+\hat{y} = \operatorname{sign}(f(x))
 $$
 
 Batas pemisah (*decision boundary*) adalah himpunan titik dengan $w^T x + b = 0$. Pada implementasi, titik dengan $f(x) = 0$ dipetakan ke kelas $+1$.
