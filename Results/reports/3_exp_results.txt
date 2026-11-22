@@ -1,0 +1,41 @@
+============================================================
+SVM BINARY CLASSIFICATION - EXPERIMENT RESULTS
+Split Rasio 80% : 20%
+============================================================
+
+MODEL CONFIGURATION
+------------------------------------------------------------
+Model               : Linear Soft-Margin SVM
+Optimization        : Batch Gradient Descent
+Iterations         : 50000
+Learning Rate      : 0.001
+Regularization     : 0.001
+Number of Features : 5
+Random Train Size  : 36249
+Random Test Size   : 9063
+Chron Train Size   : 36249
+Chron Test Size    : 9063
+============================================================
+TRAINING PERFORMANCE
+============================================================
+                  Parameter  Random Split  Chronological Split
+Type                                                          
+Weight             nswprice      1.754158             1.758988
+Weight            nswdemand      0.308356             0.308879
+Weight             vicprice     -0.034613            -0.014035
+Weight            vicdemand      0.014476             0.109540
+Weight             transfer      0.262048             0.384581
+-                      Bias     -0.259055            -0.319123
+-       Last Objective Func      0.568999             0.586350
+-       Last Regularization      0.001621             0.001675
+-           Last Hinge Loss      0.567378             0.584676
+-       Last Train Accuracy      0.756600             0.750393
+============================================================
+TESTING PERFORMANCE
+============================================================
+                 Random Split  Chronological Split
+Accuracy             0.760455             0.786164
+Precision            0.795350             0.726755
+Recall               0.586798             0.842993
+F1-Score             0.675340             0.780571
+Mean Hinge Loss      0.568101             0.516173
